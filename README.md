@@ -15,9 +15,9 @@ Configuration:
 
 Please reload application after any configuration chanages.
 
-![alt text](https://github.com/teamEMARK/ReloadTaskButton/blob/master/images/settings_button.png)
+![alt text](https://github.com/inphinityapp/ReloadTaskButton/blob/master/images/settings_button.png)
 
-See also Reload Task Status https://github.com/teamEMARK/ReloadTaskStatus
+See also Reload Task Status https://github.com/inphinityapp/ReloadTaskStatus
 
 Examples of needed security rules:
 
@@ -25,7 +25,7 @@ Examples of needed security rules:
 Resource filter: ExecutionResult*, ExecutionSession*,ReloadTask*
 Action: Read
 ```
-![alt text](https://github.com/teamEMARK/ReloadTaskStatus/blob/master/images/RTS_rule.png)
+![alt text](https://github.com/inphinityapp/ReloadTaskStatus/blob/master/images/RTS_rule.png)
 
 and 
 
@@ -36,13 +36,13 @@ Condition: (resource.HasPrivilege("read"))
 or 
 Condition: ((user.@AccessArea=resource.stream.@AccessArea)) - if customProperty AccessArea is used for access to streams
 ```
-![alt text](https://github.com/teamEMARK/ReloadTaskButton/blob/master/images/RTB_rule.png)
+![alt text](https://github.com/inphinityapp/ReloadTaskButton/blob/master/images/RTB_rule.png)
 
 Demo:
-![alt text](https://github.com/teamEMARK/ReloadTaskStatus/blob/master/images/EMARK_Reload_Task.gif)
+![alt text](https://github.com/inphinityapp/ReloadTaskStatus/blob/master/images/Reload_Task.gif)
 
 Application example:
-![alt text](https://github.com/teamEMARK/ReloadTaskStatus/blob/master/images/screenshot.png)
+![alt text](https://github.com/inphinityapp/ReloadTaskStatus/blob/master/images/screenshot.png)
 
 Tested Qlik Sense Version: Qlik Sense April 2018 and newer
 
