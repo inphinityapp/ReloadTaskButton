@@ -1,6 +1,6 @@
 define(["jquery", "qlik","./RTB_func", "text!./ReloadTaskButton.css", "text!./template.html", "text!./modal.html"], function($, qlik, RTB_func, cssContent, template, modal)  {
-	if(!$("#emark-reload-button-style")[0]){
-		$("<style id='emark-reload-button-style'>").html(cssContent).appendTo("head");
+	if(!$("#inphinity-reload-button-style")[0]){
+		$("<style id='inphinity-reload-button-style'>").html(cssContent).appendTo("head");
 	}
     return{
         support :
@@ -384,11 +384,11 @@ define(["jquery", "qlik","./RTB_func", "text!./ReloadTaskButton.css", "text!./te
 					type: "items",
 					items: {
 						text: {
-							label: "EMARK Reload Task Button extenstion",
+							label: "Inphinity Reload Task Button extenstion",
 							component: "text"
 						},				
 						version: {
-							label: 'Version: 0.3',
+							label: 'Version: 1.0',
 							component: "text"
 						}					
 					}
