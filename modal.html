@@ -1,0 +1,76 @@
+<div class="emark-reload-button">
+	<div class="modal-overlay" ng-if="showOverlay"></div>
+	<div class="modal-content" ng-if="reloadRunning">
+		<div class="modal-message">
+			<h2>Reload still running!!!</h2>
+		</div>
+		<div class="modal-botton">
+			<button ng-click="closeModal()" class="btn btn-danger">Close</a>
+		</div>
+	</div>
+	<div class="modal-content" ng-if="askReload">
+		<div class="modal-message">
+			<h2>Do you want to reload application?</h2>
+		</div>
+		<div class="modal-botton">
+			<button ng-click="uploadData()" class="btn btn-ok">OK</button>
+			<button ng-click="closeModal()" class="btn btn-danger">Cancel</button>
+		</div>
+	</div>
+	<div class="loader" class="loader" ng-if="showLoader">Loading...</div>
+	<div class="modal-content" ng-if="showReloadError">
+		<div class="modal-message">
+			<h2>You have no access to start reload!</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-danger">Close</button>
+		</div>
+	</div>
+	<div class="modal-content" ng-if="showStarted">
+		<div class="modal-message">
+			<h2>Reload started</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-success">Close</button>
+		</div>
+	</div>
+	<div class="modal-content" ng-if="showScheduled">
+		<div class="modal-message">
+			<h2>Reload scheduled</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-success">Close</button>
+		</div>
+	</div>
+	<div class="modal-content" ng-if="showSuccess">
+		<div class="modal-message">
+			<h2>Reload succeeded!</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-success">Close</button>
+		</div>
+	</div>
+	<div class="modal-content" ng-if="showFail">
+		<div class="modal-message">
+			<h2>Reload failed!</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-danger">Close</button>
+		</div>		
+	</div>
+	<div class="modal-content" ng-if="showUploadError">
+		<div class="modal-message">
+			<h2>Data upload failed!</h2>
+		</div>
+		<br>
+		<div class="modal-message">
+			<button ng-click="closeModal()" class="btn btn-danger">Close</button>
+		</div>		
+	</div>
+
+</div>

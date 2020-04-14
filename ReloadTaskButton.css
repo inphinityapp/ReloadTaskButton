@@ -1,0 +1,128 @@
+/* Button design */
+.emark-reload-button .btn-responsive {
+	width: 95%;
+	height: 95%;
+	display:inline-block;
+    color: #fff;
+    background: #4e0a55;
+	font-weight: bold;
+    border: none;
+	text-decoration: none;
+	margin: 2px;
+	border-radius: 0.5rem;
+}
+
+.emark-reload-button .btn  {
+	display:inline-block;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background: #4e0a55;
+	text-decoration: none;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	margin: 2px;
+	border-radius: 0.3rem;
+}
+
+.emark-reload-button .btn-primary  {
+    background: #4e0a55;
+}
+
+.emark-reload-button .btn-ok  {
+    background: #01DF01;
+}
+
+.emark-reload-button .btn-danger  {
+    background: #c94e50;
+}
+
+.emark-reload-button .btn-success  {
+    background: #449d44;
+}
+
+/* Modal design */
+.emark-reload-button .modal-content{
+	position:fixed;
+	top:30%;
+	left:30%;
+	width:30%;
+	height: auto;
+	margin:1.5em auto 0;
+	padding:60px;
+	border:2px solid #4e0a55;
+	background:#fff;
+	z-index:2;
+	border-radius: 0.5rem;
+}
+
+.emark-reload-button .modal-overlay{
+	z-index:1;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+	animation: emark-reload-button-fade-in 0.5s ease-out;
+}
+
+.emark-reload-button .modal-message {
+	text-align: center;
+	font-size: 22px;
+	font-family:  Segoe UI;;
+	color: #4e0a55;
+}
+
+.emark-reload-button .modal-botton {
+	text-align: center;
+}
+
+/* Loader design */
+.emark-reload-button .loader {
+  top:30%;
+  margin: 60px auto;
+  font-size: 10px;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  animation: emark-reload-button-loader 1.1s infinite linear;
+}
+
+.emark-reload-button .loader,.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+@keyframes emark-reload-button-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes emark-reload-button-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

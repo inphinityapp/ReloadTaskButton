@@ -1,0 +1,9 @@
+{
+    "name": "Reload Task Button",
+    "description": "",
+    "type": "visualization",
+    "preview": "images/reload_btn.png",
+    "version": "1.0",
+    "author": "Inphinity",
+    "src": "/extensions/ReloadTaskButton/images/reload_btn.png"
+}
