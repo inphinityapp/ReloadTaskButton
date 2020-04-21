@@ -282,7 +282,7 @@ define(["jquery", "qlik","./RTB_func", "text!./ReloadTaskButton.css", "text!./te
 					},
 				},
 				loadParameters : {
-                    label : "Load paramerers (experimental)",
+                    label : "Load parameters (experimental)",
                     type : "items",
                     items : {
 						InfoLoadProp: {
@@ -338,7 +338,7 @@ define(["jquery", "qlik","./RTB_func", "text!./ReloadTaskButton.css", "text!./te
                      }
                 },						
 				custom : {
-  			       label : "Button customisation",
+  			       label : "Button customization",
                     type : "items",
                     items : {
 
@@ -384,7 +384,7 @@ define(["jquery", "qlik","./RTB_func", "text!./ReloadTaskButton.css", "text!./te
 					type: "items",
 					items: {
 						text: {
-							label: "Inphinity Reload Task Button extenstion",
+							label: "Inphinity Reload Task Button extension",
 							component: "text"
 						},				
 						version: {
