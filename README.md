@@ -38,8 +38,11 @@ Condition: ((user.@AccessArea=resource.stream.@AccessArea)) - if customProperty 
 ```
 ![alt text](https://github.com/inphinityapp/ReloadTaskButton/blob/master/images/RTB_rule.png)
 
+
 Demo:
+
 ![alt text](https://github.com/inphinityapp/ReloadTaskStatus/blob/master/images/reload_task_showcase.gif)
+
 
 Application example:
 ![alt text](https://github.com/inphinityapp/ReloadTaskStatus/blob/master/images/reload_task_showcase.png)
